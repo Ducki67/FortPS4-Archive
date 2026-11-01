@@ -1,0 +1,45 @@
+name: Build submission
+description: Offer a PS4 Fortnite build (or a link to one) for the archive
+title: "[Build] <version> CL <changelist>"
+labels: ["submission"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "1.6.4"
+    validations:
+      required: true
+  - type: input
+    id: cl
+    attributes:
+      label: Changelist (CL)
+      description: From engine/build/build.version, e.g. 3668626
+  - type: input
+    id: title_id
+    attributes:
+      label: Title ID and region
+      placeholder: "CUSA07022 (EU)"
+  - type: input
+    id: link
+    attributes:
+      label: Upload link
+      description: Where the build can be downloaded from
+    validations:
+      required: true
+  - type: input
+    id: size
+    attributes:
+      label: Size
+  - type: input
+    id: credit
+    attributes:
+      label: Credit
+      description: Name to credit in the archive
+  - type: checkboxes
+    id: clean
+    attributes:
+      label: Checklist
+      options:
+        - label: I removed title.json, sce_sys/license.dat and sce_sys/keystone from the dump
+          required: true

@@ -1,0 +1,40 @@
+{
+  "builds": [
+    {
+      "version": "1.6.4",
+      "cl": 3668626,
+      "build": "++Fortnite+Release-Cert-CL-3668626",
+      "title_id": "CUSA07022",
+      "platform": "PS4",
+      "engine": "UE 4.16",
+      "season": "Chapter 1 Season 1",
+      "credit": "90sNath",
+      "tag": "1.6.4",
+      "zip": "Fortnite-1.6.4-CL-3668626-PS4-CUSA07022.zip",
+      "size": 7642054690,
+      "sha256": "63c32301aa21de76c7040a2836fe2d9e92ae3587172ddf80dfa5c62c787aeb02",
+      "parts": [
+        {
+          "name": "Fortnite-1.6.4-CL-3668626-PS4-CUSA07022.zip.001",
+          "size": 1992294400,
+          "sha256": "f0ca0d8d89e0eac80bc6c8b5a1093492daf509e85eeec3c6d24c7c80e77e1cb0"
+        },
+        {
+          "name": "Fortnite-1.6.4-CL-3668626-PS4-CUSA07022.zip.002",
+          "size": 1992294400,
+          "sha256": "4aa6049e5aa7af7206efd3ca20bfa0511cf38f96ebab5a28c93ee2d4a9f37729"
+        },
+        {
+          "name": "Fortnite-1.6.4-CL-3668626-PS4-CUSA07022.zip.003",
+          "size": 1992294400,
+          "sha256": "18f609bf7774d5bfce14ad4c3a6964a286ac13a1d4797403f950477f9a63265a"
+        },
+        {
+          "name": "Fortnite-1.6.4-CL-3668626-PS4-CUSA07022.zip.004",
+          "size": 1665171490,
+          "sha256": "35183b48c5e4d996c599e295be5f07d01362d75450fb0846616ed2b9b0e496da"
+        }
+      ]
+    }
+  ]
+}
